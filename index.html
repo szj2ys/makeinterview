@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MakeInterview — AI voice mock interviews for Chinese-speaking candidates</title>
+<meta name="description" content="MakeInterview is a Chinese-first AI voice mock-interview tool: a structured interviewer that follows up, grounds questions in your resume and the job description, and shows your verbatim transcript beside a model answer.">
+<style>
+:root{--bg:#0f1115;--fg:#e8eaf0;--mut:#9aa3b2;--acc:#5b8cff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+main{max-width:760px;margin:0 auto;padding:56px 20px 96px}
+h1{font-size:2rem;line-height:1.25;margin:0 0 8px}
+h2{font-size:1.15rem;margin:36px 0 10px}
+.lede{color:var(--mut);font-size:1.05rem;margin:0 0 28px}
+a{color:var(--acc)}
+ul{padding-left:1.2em}
+li{margin:6px 0}
+.cta{display:inline-block;margin-top:28px;padding:12px 20px;border:1px solid var(--acc);border-radius:10px;text-decoration:none}
+footer{margin-top:48px;color:var(--mut);font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<h1>MakeInterview</h1>
+<p class="lede">A Chinese-first AI voice mock-interview tool. You are asked questions out loud and answer in the moment — the way a real interview works.</p>
+
+<h2>Why it exists</h2>
+<p>Job seekers practice by reading question lists or rehearsing silently. Neither reproduces the one thing that transfers to the real room: being asked out loud and having to answer on the spot. MakeInterview runs a spoken interview and then shows you exactly what you said.</p>
+
+<h2>How the interviewer behaves</h2>
+<ul>
+  <li><strong>It follows up.</strong> The interviewer is modelled as a turn loop and may dig in once or twice before moving on, instead of waiting for a perfectly composed answer.</li>
+  <li><strong>Questions are grounded.</strong> Every generated question anchors to a specific entity parsed from your resume and the target job description. If nothing can be anchored, it asks a clarification rather than inventing a plausible-sounding project.</li>
+  <li><strong>Feedback is the transcript.</strong> Instead of a single score, you see your verbatim words next to a model answer — filler words and hedging included.</li>
+  <li><strong>Five interviewer personas.</strong> An HR screener, a direct manager, a technical expert, a department head, and an executive. Same candidate, different pressure.</li>
+</ul>
+
+<h2>Design notes</h2>
+<p>The structure follows the evidence on selection methods: structured interviews rank among the highest-validity predictors of job performance (Schmidt &amp; Hunter, 1998; the 2022 update by Sackett et al.), well ahead of unstructured conversation. So the interviewer stays structured rather than chatty.</p>
+
+<p><a class="cta" href="https://makeinterview.com">Try MakeInterview →</a></p>
+
+<footer>
+<p>MakeInterview is at <a href="https://makeinterview.com">makeinterview.com</a>. The product is Chinese-first: questions and feedback are in Chinese.</p>
+</footer>
+</main>
+</body>
+</html>
